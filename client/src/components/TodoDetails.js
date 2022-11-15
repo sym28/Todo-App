@@ -53,7 +53,7 @@ function TodoDetails({todo, deleteTodo}) {
             </IconButton>
           </Grid>
         </Grid>
-      </CardContent>
+      </CardContent> 
     </Card>
   )
 }
