@@ -51,7 +51,6 @@ function TodoDetails({todo, deleteTodo}) {
               >
               </DeleteOutlineOutlinedIcon>
             </IconButton>
-            
           </Grid>
         </Grid>
       </CardContent>
