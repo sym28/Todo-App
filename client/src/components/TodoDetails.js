@@ -10,7 +10,7 @@ import {formatDistanceToNow} from 'date-fns'
 function TodoDetails({todo, deleteTodo}) {
 
   const handleClick = async () => {
-    const res = await fetch('http://localhost:4500/api/todos/' + todo._id, {
+    const res = await fetch('https://todo-app-11fd.onrender.com/api/todos/' + todo._id, {
       method: 'DELETE'
     })
     const json = await res.json()

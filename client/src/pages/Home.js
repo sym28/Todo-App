@@ -9,7 +9,7 @@ function Home() {
 
   useEffect(() => {
     const todos = async () => {
-      const res = await fetch('http://localhost:4500/api/todos/')
+      const res = await fetch('https://todo-app-11fd.onrender.com/api/todos/')
       const data = await res.json()
 
       if(res.ok) {
